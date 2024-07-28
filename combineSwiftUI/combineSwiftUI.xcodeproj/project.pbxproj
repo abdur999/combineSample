@@ -25,6 +25,12 @@
 		EE5E64642C56893C0017912A /* Reduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64632C56893C0017912A /* Reduce.swift */; };
 		EE5E64662C568A700017912A /* Debounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64652C568A700017912A /* Debounce.swift */; };
 		EE5E64682C568B570017912A /* Throttle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64672C568B570017912A /* Throttle.swift */; };
+		EE5E646A2C5697220017912A /* Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64692C5697220017912A /* Scan.swift */; };
+		EE5E646C2C569CDD0017912A /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E646B2C569CDD0017912A /* Filter.swift */; };
+		EE5E646E2C569EBB0017912A /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E646D2C569EBB0017912A /* RemoveDuplicates.swift */; };
+		EE5E64702C569F610017912A /* CompactMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E646F2C569F610017912A /* CompactMap.swift */; };
+		EE5E64722C56A3400017912A /* IgnoreOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64712C56A3400017912A /* IgnoreOutput.swift */; };
+		EE5E64742C56A3E20017912A /* Sequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E64732C56A3E20017912A /* Sequences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		EE5E64632C56893C0017912A /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
 		EE5E64652C568A700017912A /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
 		EE5E64672C568B570017912A /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		EE5E64692C5697220017912A /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		EE5E646B2C569CDD0017912A /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		EE5E646D2C569EBB0017912A /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		EE5E646F2C569F610017912A /* CompactMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompactMap.swift; sourceTree = "<group>"; };
+		EE5E64712C56A3400017912A /* IgnoreOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreOutput.swift; sourceTree = "<group>"; };
+		EE5E64732C56A3E20017912A /* Sequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +178,12 @@
 				EE5E64632C56893C0017912A /* Reduce.swift */,
 				EE5E64652C568A700017912A /* Debounce.swift */,
 				EE5E64672C568B570017912A /* Throttle.swift */,
+				EE5E64692C5697220017912A /* Scan.swift */,
+				EE5E646B2C569CDD0017912A /* Filter.swift */,
+				EE5E646D2C569EBB0017912A /* RemoveDuplicates.swift */,
+				EE5E646F2C569F610017912A /* CompactMap.swift */,
+				EE5E64712C56A3400017912A /* IgnoreOutput.swift */,
+				EE5E64732C56A3E20017912A /* Sequences.swift */,
 			);
 			path = combineOperators;
 			sourceTree = "<group>";
@@ -301,6 +319,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5E64682C568B570017912A /* Throttle.swift in Sources */,
+				EE5E646C2C569CDD0017912A /* Filter.swift in Sources */,
+				EE5E64742C56A3E20017912A /* Sequences.swift in Sources */,
+				EE5E64702C569F610017912A /* CompactMap.swift in Sources */,
 				EE5E645A2C5685970017912A /* MergeWith.swift in Sources */,
 				EE5E64642C56893C0017912A /* Reduce.swift in Sources */,
 				EE5E642A2C56746E0017912A /* ContentView.swift in Sources */,
@@ -310,8 +331,11 @@
 				EE5E64562C5676630017912A /* ReplaceNil.swift in Sources */,
 				EE5E64622C56887B0017912A /* Collect.swift in Sources */,
 				EE5E64542C5674E40017912A /* Prepend.swift in Sources */,
+				EE5E64722C56A3400017912A /* IgnoreOutput.swift in Sources */,
 				EE5E64602C5687FA0017912A /* Map.swift in Sources */,
 				EE5E64662C568A700017912A /* Debounce.swift in Sources */,
+				EE5E646E2C569EBB0017912A /* RemoveDuplicates.swift in Sources */,
+				EE5E646A2C5697220017912A /* Scan.swift in Sources */,
 				EE5E645E2C5687280017912A /* Zip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

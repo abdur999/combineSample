@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showStuff = false
     var body: some View {
+        
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            
+            Toggle(isOn: $showStuff) {
+              
+            }
             Text("Hello, world!")
         }
         .padding()
@@ -20,5 +26,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+      ContentView()
 }
